@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +42,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieViewHolder> {
         holder.bind(movieItem);
 
     }
+
 
     @Override
     public int getItemCount() {

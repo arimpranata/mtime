@@ -67,9 +67,7 @@ public class ResultsItemMovie {
 		this.originalTitle = originalTitle;
 	}
 
-	public String getOriginalTitle(){
-		return originalTitle;
-	}
+	public String getOriginalTitle(){ return originalTitle; }
 
 	public void setVideo(boolean video){
 		this.video = video;
